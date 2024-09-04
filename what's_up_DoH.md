@@ -1,0 +1,3 @@
+## CTF BIOS - what's_up_DoH
+
+    So as soon as I saw the file name, I understood that the file is gziped. We can also check by another way in terminal usinf command "file file.pcap.gz". After that I unziped using "gunzip file.pcap.gz". Then it is converted into a pcap file. Pcap file is basically a file which contain packet data of a network. Similarly, it contains more packets in which one of the the packet contain the clue to the flag. Then using the hint i came to know that i should search something called idk567. So I used wireshark(used for view the pcap file) to read the packets. Then I searched idk567 in find box and noticed a link which I googled and it took me to pic of sponge bob. Then i looked closely to the title of the website aand it contained the flag.
