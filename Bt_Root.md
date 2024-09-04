@@ -1,0 +1,3 @@
+## CTF BIOS - Bt_Root
+
+    So here the file which contains flag is pcapng. And opened the file through wireshark. And had no idea what to do. Then I decided to check everyfile which is somewhat different. I got several files like png (some malformed format), and a mp4 file and a txt file. So I checked every file and atlast i checked the txt file which contained some values which was understanble (all hail king bluetooth ). I just checked it in google and got a useful thing called HARALD BLUETOOTH. Then I entered it in the python for flag translator in which i got the flag.
