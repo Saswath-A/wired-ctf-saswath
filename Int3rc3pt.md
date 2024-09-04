@@ -1,0 +1,3 @@
+## CTF BIOS - Int3rc3pt
+
+    In this challenge, it is ziped file. So I unziped using the command "unzip secret.zip". So after that i got a pcap file which i view with wireshark. While looking at that I found out that more malformed format packet except one.Also it contained flag in its string. Then after that it was encoded was base64 (in last it contained ==). Then I decoded the string and found the flag.
