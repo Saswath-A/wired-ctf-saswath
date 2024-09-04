@@ -1,0 +1,3 @@
+## CTF BIOS - Is_It_Secure_Tho??
+
+    So for this, we have to read file through wireshark because it is pcap type of file.  After that I saw the title of the challenges adn got a idea to search in google which transmission is not secure. In that I came to know that http is not secure for transmission. And filter the http protocol and searched every single packets. Then there was different packet i.e in info there was POST which i checked through and a html form encoded file was there which i checked and  got the flag in Form item.
