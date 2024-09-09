@@ -1,0 +1,3 @@
+## CTF BIOS - Crack-A-Lot
+
+      So basically here, there is a txt file which contain a bunch of passwords in which one is the correct one(this was ziped in a zip file).And we have a pcap file which catpured some socket packets in which the password for essid:Redmi 12 5G is same as flag. The password  encryption type is WPA. So I tried to bruteforce the passwords in txt file to the packets in pcap file through aircrack-ng(WPA-PSK key cracker). I used 'aircrack-ng -w "name.txt" "name.pcap" which cracked the password through trial and error.This much is only i know about it later i will try to understand it carefully.
